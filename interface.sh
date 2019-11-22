@@ -45,7 +45,7 @@ off="\e[0m"
 
 clear
  echo -e "			$BCyan      		$UWhite Dark Web Onion $off"; 
- echo -e "			$BGreen             Facebook - fb.com/mubassir1337 $off";
+ echo -e "			$BGreen             Facebook - fb.com/mubassir.py $off";
  echo -e "			$BGreen             Facebook - fb.com/officialharoonawan $BCyan $off"; 
  echo -e "			$BGreen             Github   - github.com/haroonawanofficial $off ";
  echo -e "			$BGreen             Coder    - Haroon Awan / mrharoonawan@gmail.com $off ";
@@ -70,7 +70,7 @@ if [ $Option -eq "1" ]
  then
 echo -ne "$red [$green!$red] $off Enter Onion Address: "
 read onion
-python3 cobra.py --wait=2 --download-files https://$onion
+python3 TorCobra.py --wait=2 --download-files https://$onion
  fi
   
 if [ $Option -eq "2" ]
